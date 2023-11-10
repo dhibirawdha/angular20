@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    docker.build("mon_application")
+                    docker.build("angular20")
                 }
             }
         }
