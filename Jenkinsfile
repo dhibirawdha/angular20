@@ -10,7 +10,7 @@ pipeline {
         }
         // Ajoutez d'autres étapes au besoin
 
-    
+     
 
     stage('Install Dependencies') {
         steps {
