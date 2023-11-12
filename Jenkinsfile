@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupération du code source depuis le référentiel Git
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']]])
             }
         }
         // Ajoutez d'autres étapes au besoin
